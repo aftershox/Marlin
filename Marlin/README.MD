@@ -74,7 +74,7 @@ A)- Perform an EEPROM reset
 
 B)- Get current PID settings using M503
 
-- PID Tune the hotend for your desired material temperatures (use the built-in Menu on the LCD, or the following gCode via a terminal)
+- PID Tune the hotend for your desired material temperatures (use the built-in Menu on the LCD "Advanced Settings", or the following gCode via a terminal)
 
 >HOTEND
 
