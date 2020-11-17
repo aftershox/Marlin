@@ -10,15 +10,25 @@ Configuration_adv.h
 HARDWARE
 ========
 Creality Ender 5 Plus printer
+
 with SKR v.1.4 TURBO Board (LPC1769)
+
 and BTT TFT35 display (running in Marlin mode - 12864-LCD / emulator mode)
+
 Stock Hotend / Stock FAN Assembly
+
 Stock Filament Runout Sensor
+
 Stock BL Touch v.3.1 mount
+
 - MUST be wired to SKR SERVO Port, and Z-Min endstop port (NOT Probe)
 
-5 x TMC2209 stepper drivers (ALL 5 x Diag pins MUST be cut, bent or removed if NOT using SENSORLESS HOMING)
+
+TMC2209 stepper drivers x 5
+
+(ALL 5 x Diag pins MUST be cut, bent or removed if NOT using SENSORLESS HOMING)
 - X, Y, Z1, Z2 and E0 wired to ports on their own steppers (on the SKR v.1.4. board)
+
 Using physical endstops (NOT SENSORLESS HOMING)
 
 MARLIN 2.0.7.2. Features Enabled
