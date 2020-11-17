@@ -101,7 +101,7 @@ B)- Get current PID settings using M503
 C) G34 Auto Z Alignment
 - Pre-heat your machine to an appropriate temperature - i.e. 200 nozzle / 60 bed
 - From the "Motion" menu, choose "Auto Z Align"
-- wait until the steppers report "Accuracy Achieved"
+- wait until the LCD display reports "Accuracy Achieved" (If this fails - Level your bed, and re-try)
 
 D) Level your bed
 - Pre-heat your machine to an appropriate temperature - i.e. 200 nozzle / 60 bed
