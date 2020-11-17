@@ -77,17 +77,25 @@ B)- Get current PID settings using M503
 - PID Tune the hotend for your desired material temperatures (use the built-in Menu on the LCD, or the following gCode via a terminal)
 
 >HOTEND
+
 >m303 c5 e0 s205 u1
+
 >(c=5 iterations e=0 hotend s=target temp {205}) u1 store / use settings immediately
+
 >m500
+
 >(save to eeprom)
 
 - PID Tune the BED for your printing adhesion temperatures (60) (use the built-in Menu on the LCD, or the following gCode via a terminal)
 
 >BED
+
 >m303 c5 e-1 s60 u1
+
 >(c=5 iterations e=-1 bed s=target temp {60}) u1 store / use settings immediately
+
 >m500
+
 >(save to eeprom)
 
 C) G34 Auto Z Alignment
