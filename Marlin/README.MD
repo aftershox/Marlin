@@ -51,6 +51,8 @@ S Curve Acceleration *enabled*
 
 Probe Z Offset / Babystepping Z COMBINED MODE - double-click LCD knob while printing to access.
 
+NEW - Arc Support *enabled* - for use with the Octoprint Arc Welder "plug-in"
+
 
 BUG's Fixed
 ===========
