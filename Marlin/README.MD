@@ -1,4 +1,4 @@
-Configuration files for Ender 5 PLUS - 3dpmarkr (17th November 2020)
+Configuration files for Ender 5 PLUS - 3dpmarkr (25th January 2021)
 ====================================================================
 
 Marlin 2.0.7.2.
@@ -15,7 +15,7 @@ with SKR v.1.4 TURBO Board (LPC1769)
 
 and BTT TFT35 display (running in Marlin mode - 12864-LCD / emulator mode)
 
-Stock Hotend / Stock FAN Assembly
+E3D Hemera Hotend & Extruder
 
 Stock Filament Runout Sensor
 
@@ -33,6 +33,9 @@ Using physical endstops (NOT SENSORLESS HOMING)
 
 MARLIN 2.0.7.2. Features Enabled
 ================================
+NEW - E3D HEMERA
+- (to be filled)
+
 Thermal Runaway Protection - Hotend and Bed ONLY (Not Chamber!)
 
 ABL - G29 - BILINEAR AUTO_BED_LEVELING_BILINEAR x 5 Probe Points (25 total)
@@ -51,7 +54,7 @@ S Curve Acceleration *enabled*
 
 Probe Z Offset / Babystepping Z COMBINED MODE - double-click LCD knob while printing to access.
 
-NEW - Arc Support *enabled* - for use with the Octoprint Arc Welder "plug-in"
+Arc Support *enabled* - for use with the Octoprint Arc Welder "plug-in"
 
 
 BUG's Fixed
