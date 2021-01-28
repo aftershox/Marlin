@@ -572,7 +572,7 @@
  * Note: For Bowden Extruders make this large enough to allow load/unload.
  */
 #define PREVENT_LENGTHY_EXTRUDE
-#define EXTRUDE_MAXLENGTH 600 // 3dpmarkr
+#define EXTRUDE_MAXLENGTH 200 // 3dpmarkr - E3D Hemera - lower value due to short filament path
 
 //===========================================================================
 //======================== Thermal Runaway Protection =======================
@@ -741,7 +741,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 } // 3dpmarkr
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 397.5 } // 3dpmarkr - E3D Hemera 397.5 E-steps (default is 93)
 
 /**
  * Default Max Feed Rate (mm/s)
