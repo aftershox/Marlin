@@ -499,9 +499,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  23.25 // 3dpmarkr - original value 14.72
-    #define DEFAULT_Ki   1.98 // 3dpmarkr - original value 0.89
-    #define DEFAULT_Kd 68.33 // 3dpmarkr - original value 61.22
+    #define DEFAULT_Kp  28.86 // 3dpmarkr - E3D HEMERA V6
+    #define DEFAULT_Ki   2.34 // 3dpmarkr - E3D HEMERA V6
+    #define DEFAULT_Kd 89.09 // 3dpmarkr - E3D HEMERA V6
   #endif
 #endif // PIDTEMP
 
