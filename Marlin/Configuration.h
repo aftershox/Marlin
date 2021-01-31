@@ -131,7 +131,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender 5 Plus - Marlin 2.0.7.2" // 3dpmarkr
+#define CUSTOM_MACHINE_NAME "Ender 5 Plus - E3D Hemera-Marlin 2.0.7.2" // 3dpmarkr
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
