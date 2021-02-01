@@ -1,5 +1,5 @@
-Configuration files for Ender 5 PLUS - 3dpmarkr (25th January 2021)
-====================================================================
+Configuration files for Ender 5 PLUS - aftershox / 3dpmarkr (1st February 2021)
+===============================================================================
 
 Marlin 2.0.7.2.
 
@@ -16,10 +16,13 @@ with SKR v.1.4 TURBO Board (LPC1769)
 and BTT TFT35 display (running in Marlin mode - 12864-LCD / emulator mode)
 
 E3D Hemera Hotend & Extruder
+- Mount plate - AdmiralBraddus - https://www.thingiverse.com/thing:4063059
+- - with built-in BL Touch mount / X-Limit Switch Extender (needed to prevent mount crashing into right hand side of X Axis)
+- Extra wiring loom support from BGDog - https://www.thingiverse.com/thing:4141056 
 
 Stock Filament Runout Sensor
 
-Stock BL Touch v.3.1 mount
+BL Touch v.3.1
 
 - MUST be wired to SKR SERVO Port, and Z-Min endstop port (NOT Probe)
 
@@ -34,7 +37,7 @@ Using physical endstops (NOT SENSORLESS HOMING)
 MARLIN 2.0.7.2. Features Enabled
 ================================
 NEW - E3D HEMERA
-- (to be filled)
+- (as per the E3D documentation with exception of lower e-steps to 397.5 to prevent over extrusion)
 
 Thermal Runaway Protection - Hotend and Bed ONLY (Not Chamber!)
 
