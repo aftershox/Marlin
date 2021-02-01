@@ -19,6 +19,8 @@ E3D Hemera Hotend & Extruder
 - Mount plate - AdmiralBraddus - https://www.thingiverse.com/thing:4063059
 - - with built-in BL Touch mount / X-Limit Switch Extender (needed to prevent mount crashing into right hand side of X Axis)
 - Extra wiring loom support from BGDog - https://www.thingiverse.com/thing:4141056 
+- 4020 radial blower fan for parts cooling
+- - using "glue-on" duct from 3D Maker Noob (Joe Casha) - part name "Ductv5Final.stl" - https://www.myminifactory.com/object/3d-print-ender-3-e3d-hemera-mount-105802
 
 Stock Filament Runout Sensor
 
