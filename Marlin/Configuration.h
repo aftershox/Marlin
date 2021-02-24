@@ -90,10 +90,10 @@
 #define SHOW_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
-//#define SHOW_CUSTOM_BOOTSCREEN
+#define SHOW_CUSTOM_BOOTSCREEN //edited by 3dpmarkr
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
-//#define CUSTOM_STATUS_SCREEN_IMAGE
+#define CUSTOM_STATUS_SCREEN_IMAGE //edited by 3dpmarkr
 
 // @section machine
 
@@ -129,11 +129,11 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_CREALITY_V4
+  #define MOTHERBOARD BOARD_CREALITY_V4 //edited by 3dpmarkr - Creality v.4.2.2 new 32 bit board with TMC2208
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-3 Pro V1.5"
+#define CUSTOM_MACHINE_NAME "Darren's Ender-3 Pro - Marlin v.2.0.7.2" //edited by 3dpmarkr
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1738,7 +1738,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY //edited by 3dpmarkr
 
 /**
  * LCD Menu Items
@@ -2068,7 +2068,7 @@
 // This is RAMPS-compatible using a single 10-pin connector.
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
-#define CR10_STOCKDISPLAY
+#define CR10_STOCKDISPLAY //edited by 3dpmarkr
 #if ENABLED(CR10_STOCKDISPLAY)
   #define RET6_12864_LCD  // Specific to the SoC (can either be RET / VET)
 #endif
