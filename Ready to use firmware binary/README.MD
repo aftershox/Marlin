@@ -45,7 +45,7 @@ Power-Loss Recovery:(ENABLED) / M413 Resume printing from SD Card in power loss 
 
 NOTE : Once firmware update is completed - POWER OFF the Printer
 - EJECT the SD CARD
-- Put SD CARD back into your PC / Laptop and delete the firmware-20210225-105300.bin file
+- Put SD CARD back into your PC / Laptop and delete the firmware-xxxxxxxx-xxxxxx.bin file
 - Put the the SD CARD back into your printer
 
 IMPORTANT NOTES ON CREALITY V.4.2.2 BOARD
